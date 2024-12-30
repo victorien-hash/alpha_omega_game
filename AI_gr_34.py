@@ -555,7 +555,7 @@ def IA_Intelligent(team,food,row,col,equipe):
     
     
 
-    #gnerer l'ensemble des ordres finaux pour l'intelligence artificielle
+    #generer l'ensemble des ordres finaux pour l'intelligence artificielle
     if type(ordre_alpha_a)!=None and type(ordre_loup_normal)!=None and type(ordre_omega_o)!=None:
         if ordre_alpha_a!=[] and ordre_omega_o==[] and ordre_loup_normal!=[]:
             return ordre_loup_normal+" "+ ordre_alpha_a
